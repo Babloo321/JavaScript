@@ -46,4 +46,14 @@ let captainAmerica = {
 };
 console.log(captainAmerica);
 console.log(captainAmerica.address.country);
-console.log(captainAmerica.sayHi());
+captainAmerica.sayHi();
+
+// loop on object
+for(let i in captainAmerica){
+    console.log(`${i} : ${captainAmerica[i]}`);
+    if(captainAmerica[i] === "address"){
+       for(let key in address){
+        console.log(`${captainAmerica[key]} : ${captainAmerica.address[key]}`);
+       }
+    }
+}

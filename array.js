@@ -42,3 +42,10 @@ let Array2d = [
     ["Akash", 43, "Hindi"]
 ]
 console.table(Array2d);
+console.log(`length of 2d array: ` + Array2d.length); // to find how many rows in a 2d array
+console.log(`elements present in 0th index: ` + Array2d[0].length);   // to find how many elements present in a row
+console.log("this is 2d array one element " + Array2d[3][0]);
+let arr = ['babloo', 'ramesh', 44, 34.32, true];
+for(let i = 0; i < arr.length; i++){
+    console.log(arr[i]);
+}
